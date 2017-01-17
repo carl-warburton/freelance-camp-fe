@@ -1,4 +1,4 @@
-import { Component, onInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Proposal } from './proposal';
 
@@ -8,7 +8,7 @@ import { Proposal } from './proposal';
     templateUrl: 'proposal-show.component.html'
 })
 
-export class ProposalShowComponent implements Oninit{
+export class ProposalShowComponent implements OnInit{
     id: number;
     routeId: any;
 
@@ -19,7 +19,7 @@ export class ProposalShowComponent implements Oninit{
     ngOnInit(): void {
         this.routeId = this.route.params.subscribe(
             params => {
-                this.id = +params['id'];
+                this.id = +params['id']
             }
         )
     }
