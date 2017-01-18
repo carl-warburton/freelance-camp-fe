@@ -28,7 +28,7 @@ var AppModule = (function () {
                 platform_browser_1.BrowserModule,
                 app_routing_module_1.AppRoutingModule,
                 forms_1.FormsModule,
-                ng_bootstrap_1.NgbModule.forRoot(),
+                ng_bootstrap_1.NgbModule.forRoot()
             ],
             declarations: [
                 app_component_1.AppComponent,
