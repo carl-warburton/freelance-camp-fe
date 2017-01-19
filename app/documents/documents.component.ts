@@ -16,21 +16,21 @@ export class DocumentsComponent {
             description: "Lorum Ipsum",
             file_url: "http://google.com",
             updated_at: '11/11/16',
-            image_url: 'http://google.com'
+            image_url: 'http://cae-images.atoa.com/images/com_hikashop/upload/thumbnails/400x400f/free_6185.png'
         },
         {
             title: "My Second Doc",
             description: "Lorum Ipsum",
             file_url: "http://google.com",
             updated_at: '11/11/16',
-            image_url: 'http://google.com'
+            image_url: 'http://cae-images.atoa.com/images/com_hikashop/upload/thumbnails/400x400f/free_7088.png'
         },
         {
             title: "My Third Doc",
             description: "Lorum Ipsum",
             file_url: "http://google.com",
             updated_at: '11/11/16',
-            image_url: 'http://google.com'
+            image_url: 'http://cae-images.atoa.com/images/com_hikashop/upload/free_8100.png'
         }
     ]
 }
