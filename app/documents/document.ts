@@ -5,4 +5,3 @@ export interface Document {
     updated_at: string,
     image_url: string
 }
-
